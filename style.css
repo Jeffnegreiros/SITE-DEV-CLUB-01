@@ -14,7 +14,8 @@
 
 
 section {
-    display: inline-block;
+    position:sticky;
+    display:inline;
     margin-left: 86px;
 }
 
@@ -46,31 +47,34 @@ header {
     font-weight: bold;
     background-color: rgb(46, 190, 89);
     color: white;
-
-    
 }
 
 h1 {
 
-    font-weight: 900px;
     font-size: 100px;
-    line-height: 122px;
     color: #f2eded;
+    margin-top: -27%;
+    margin-left: 50%;
+    
 }
 
 h2{
     font-weight: 500px;
+    line-height: 26px;
     font-size: 30px;
-    line-height: 100px;
-    color: #e5dfdf;  
+    color: #e5dfdf; 
+    margin-left: 50%;
 }
 
 p{
     font-weight: 400px;
     font-size: 24px;
-    line-height: 20px;
+    line-height: 23px;
     color: #c5c9c9;
     width: 515px;
+    margin-top: 20px; 
+    margin-left: 50%;   
+
 }
 .button-2{
     background-color:rgb(33, 170, 74);
@@ -78,12 +82,13 @@ p{
     width: 150px;
     height: 50px;
     font-size: 20px;
-    margin-top: 25px;
     cursor: pointer;
     color: white;
     border: 2px solid;
-    position: fixed;
     bottom: 14px;
+    margin-left: 76%;
+    margin-top: 2%;   
+
 }
 
 
@@ -108,3 +113,81 @@ body{
 color: rgb(236, 230, 241);
 
 }
+
+@media screen and (max-width:600px) {
+
+    body{
+
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    h1{
+        margin-right: 50px;
+        color: rgb(255, 254, 254);
+    }
+    .img-pet{
+        height: 300px;
+        margin-top: -80px;
+        margin-left: 150px;
+    }
+    
+    h1{
+        font-size: 59px;
+        margin-top: -4%;
+        margin-left: 40px;
+        margin-top: -30px;
+
+    }
+
+    h2{
+        margin-left: 40px;
+        font-size: 27px;
+        margin-top: 10px;
+
+    }
+
+    p{
+        font-size: 17px;
+        margin-left: 40px;
+        margin-top: 20px;
+    }
+
+    .button-2{
+
+        font-size: 20px;
+        width: 100px;
+        height: 40px;
+        margin-left: 410px;
+        margin-top: 20px;
+    }
+
+    .link-header{
+
+        font-size: 15px;
+         word-spacing: -10%;
+        
+    }
+
+
+    .button-header{
+        height: 29px;
+        width: 45px;
+        font-size: 13px;
+      
+       
+    }
+
+
+    }
+
+
+    
+    
+    
+
+    
+    
+    
+    
+
